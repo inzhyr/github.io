@@ -14,6 +14,7 @@ h4{
     
 }
 p{
+    font-size: 20px;
     background: rgba(255, 255, 255, 0.829);
     color: rgb(0, 0, 0);}
 /* Style the form - display items horizontally */
@@ -55,16 +56,18 @@ background-color: royalblue;
         
         background:  url(https://images.unsplash.com/photo-1521568694655-a3befc99dfde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=00e1047c7d49ef82a974d777bbbd7f1f&auto=format&fit=crop&w=1567&q=80) ;}
 .form-inline input, .form-inline .button {
-margin: 10px 0;
+margin: 3px 0;
 }
 .cta{
 background:rgba(0, 0, 255, 0);
 }
 
 p{
+
 background-color: rgba(0, 0, 0, 0.507);
 color: white;
 padding:10px;
+font-size: 10px;
 
 }
 .form-inline {
