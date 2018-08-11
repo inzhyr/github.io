@@ -1,0 +1,64 @@
+.page-background {
+    background: fixed url(https://images.unsplash.com/photo-1521568694655-a3befc99dfde?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=00e1047c7d49ef82a974d777bbbd7f1f&auto=format&fit=crop&w=1567&q=80) no-repeat center center;
+    background-size: cover;
+    
+}
+.cta {
+   
+   position:relative;
+    padding:40px;
+    background: rgba(255, 255, 255, 0.829);
+    
+}
+/* Style the form - display items horizontally */
+.form-inline { 
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+}
+
+/* Add some margins for each label */
+.form-inline label {
+margin: 5px 10px 5px 0;
+}
+
+/* Style the input fields */
+.form-inline input {
+vertical-align: middle;
+margin: 5px 10px 5px 0;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
+/* Style the submit button */
+.form-inline button {
+padding: 10px 20px;
+background-color: dodgerblue;
+border: 1px solid #ddd;
+color: white;
+}
+
+.form-inline button:hover {
+background-color: royalblue;
+}
+
+/* Add responsiveness - display the form controls vertically instead of horizontally on screens that are less than 800px wide */
+@media (max-width: 800px) {
+.form-inline input, .form-inline .button {
+margin: 10px 0;
+}
+.cta{
+background:rgba(0, 0, 255, 0);
+}
+h1,p{
+background-color: rgba(255, 255, 255, 0.829);
+
+padding:10px;
+
+}
+.form-inline {
+flex-direction: column;
+align-items: stretch;
+}
+}
