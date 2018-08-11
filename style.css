@@ -32,14 +32,14 @@ margin: 5px 10px 5px 0;
 .form-inline input {
 vertical-align: middle;
 margin: 5px 10px 5px 0;
-padding: 10px;
+padding: 5px;
 background-color: #fff;
 border: 1px solid #ddd;
 }
 
 /* Style the submit button */
 .form-inline button {
-padding: 10px 20px;
+padding: 5px 20px;
 background-color: dodgerblue;
 border: 1px solid #ddd;
 color: white;
