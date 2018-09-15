@@ -1,0 +1,101 @@
+@import url("normalize.css");
+body {
+    background-image:url("https://images.unsplash.com/photo-1527153818091-1a9638521e2a?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5fce4ce8856a711cc50a14e03e58783a&auto=format&fit=crop&w=2916&q=80") ;
+    background-repeat:repeat;
+    background-position:center;
+    background-size:cover;
+    overflow:auto;
+}
+.wrapper {
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.section {
+    width:50vw;
+    height:100vh;
+    display:block;
+}
+.section_left {
+    display:flex;
+    flex-direction:column;
+    padding:30px;
+   box-sizing:border-box;
+    justify-content: center;
+}
+.section_right {
+    display:flex;
+    flex-direction:column;
+    background-color: rgba(0,0,0,0.4);
+    align-items:center;
+    justify-content:center;
+    padding:10px;
+    box-sizing:border-box;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
+}
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.form {
+width:80%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:0 auto 0 auto;
+}
+.input{
+    margin:10px auto 0 auto;
+    padding-left:20px;
+    color:white;
+    height:48px;
+    width:100%;
+    border-radius:10px;
+    background-color:rgba(72,96,88,0.8);
+    border:0;
+
+}
+.input::placeholder{
+    color:white;
+}
+.input__button{
+    margin:10px auto 0 auto;
+    border-radius:10px;
+    height:48px;
+    display:block;
+    width:150px;
+    background-color:rgb(255,116,80);
+    border:0;
+    color:white;
+}
+.success{
+    color:white;
+    font-size:40px;
+    text-align:center;
+}
+a {
+   text-decoration:none;
+}
+.input__button:hover{
+    background-color:rgba(72,96,88,0.8);
+
+}
+@media only screen and (max-width: 768px) {
+    .section {
+        width:100vw;
+        height:50vh;
+        display:block;
+    }
+}
+
+
