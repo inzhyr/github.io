@@ -9,7 +9,7 @@ body {
 .wrapper {
     display:flex;
     flex-direction:row;
-    flex-wrap:wrap;
+    flex-wrap:nowrap;
     align-items: center;
     justify-content: space-between;
 }
@@ -112,6 +112,9 @@ a {
         width:100vw;
         height:auto;
         display:block;
+    }
+    .wrapper{
+        flex-wrap:wrap;
     }
 }
 
