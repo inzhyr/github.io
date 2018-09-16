@@ -62,6 +62,7 @@ width:80%;
     width:100%;
     border-radius:10px;
     background-color:rgba(72,96,88,1);
+    box-sizing:border-box;
 
 
 }
@@ -69,11 +70,23 @@ width:80%;
     color:white;
 }
 .input__button{
+
     margin:10px auto 0 auto;
     border-radius:10px;
     height:48px;
     display:block;
-    width:400px;
+    width:90%;
+    background-color:rgb(255,116,80);
+    border:0;
+    color:white;
+}
+.input__button-target{
+
+    margin:10px auto 0 auto;
+    border-radius:10px;
+    height:48px;
+    display:block;
+    width:100%;
     background-color:rgb(255,116,80);
     border:0;
     color:white;
@@ -84,9 +97,13 @@ width:80%;
     text-align:center;
 }
 a {
+    margin:0 auto;
    text-decoration:none;
+    width:90%;
 }
-.input__button:hover{
+.input__button-target:hover,
+.input__button:hover
+{
     background-color:rgba(72,96,88,0.8);
 
 }
