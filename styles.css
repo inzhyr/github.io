@@ -61,8 +61,8 @@ width:80%;
     height:48px;
     width:100%;
     border-radius:10px;
-    background-color:rgba(72,96,88,0.8);
-    border:0;
+    background-color:rgba(72,96,88,1);
+
 
 }
 .input::placeholder{
@@ -73,7 +73,7 @@ width:80%;
     border-radius:10px;
     height:48px;
     display:block;
-    width:150px;
+    width:400px;
     background-color:rgb(255,116,80);
     border:0;
     color:white;
