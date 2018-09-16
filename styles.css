@@ -75,7 +75,7 @@ width:80%;
     border-radius:10px;
     height:48px;
     display:block;
-    width:90%;
+    width:100%;
     background-color:rgb(255,116,80);
     border:0;
     color:white;
@@ -99,7 +99,7 @@ width:80%;
 a {
     margin:0 auto;
    text-decoration:none;
-    width:90%;
+    width:100%;
 }
 .input__button-target:hover,
 .input__button:hover
